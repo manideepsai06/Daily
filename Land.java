@@ -17,9 +17,9 @@ public class Land {
            System.out.println("root ="+r1);
     } else{
         System.out.println("no real roots");    }
-                                                    }
-                                                    public static void main(String[] args) {
-                                                        Land con=new Land();
-     con.Quad();
-    }
+ }
+ public static void main(String[] args) {
+ Land con=new Land();
+ con.Quad();
+ }
 }
