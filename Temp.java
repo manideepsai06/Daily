@@ -11,6 +11,7 @@ public class Temp {
     public void CelToFar(){
         Scanner sc=new Scanner(System.in);
          System.out.println("Enter temperature:");
+         
         double a=sc.nextInt();
         double res=(9*a-160)/5;
         System.out.println("Temperature in farenhiet is :"+ res);
